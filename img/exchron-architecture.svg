@@ -1,0 +1,59 @@
+<svg width="920" height="520" viewBox="0 0 920 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#1f2937" />
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="20" y="32" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Exchron — High-level Architecture</text>
+  <text x="20" y="54" fill="#6b7280" font-family="sans-serif" font-size="13" font-style="italic">A simple view of how the app and docs work together, and how users flow through Playground and Classroom.</text>
+
+  <!-- Left: Docs Site -->
+  <rect x="20" y="80" width="360" height="130" fill="#ffffff" stroke="#1f2937" stroke-width="2" rx="8" />
+  <text x="40" y="110" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Documentation Site</text>
+  <text x="40" y="138" fill="#374151" font-family="sans-serif" font-size="14">• You are here: guides, quickstart, concepts</text>
+  <text x="40" y="162" fill="#374151" font-family="sans-serif" font-size="14">• Helps you learn features and flows</text>
+
+  <!-- Right: Interactive App -->
+  <rect x="460" y="80" width="440" height="380" fill="#ffffff" stroke="#1f2937" stroke-width="2" rx="8" />
+  <text x="480" y="110" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Interactive App</text>
+  <text x="480" y="138" fill="#374151" font-family="sans-serif" font-size="14">Where you explore data and build models</text>
+
+  <!-- Playground -->
+  <rect x="480" y="160" width="190" height="140" fill="#ffffff" stroke="#1f2937" stroke-width="2" rx="8" />
+  <text x="500" y="188" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Playground Mode</text>
+  <text x="500" y="212" fill="#374151" font-family="sans-serif" font-size="14">Pick a model</text>
+  <text x="500" y="232" fill="#374151" font-family="sans-serif" font-size="14">Add or upload data</text>
+  <text x="500" y="252" fill="#374151" font-family="sans-serif" font-size="14">See results instantly</text>
+  <text x="500" y="272" fill="#374151" font-family="sans-serif" font-size="14">Adjust &amp; try again</text>
+
+  <!-- Classroom -->
+  <rect x="690" y="160" width="190" height="220" fill="#ffffff" stroke="#1f2937" stroke-width="2" rx="8" />
+  <text x="710" y="188" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Classroom Mode</text>
+  <text x="710" y="212" fill="#374151" font-family="sans-serif" font-size="14">1) Data Input</text>
+  <text x="710" y="232" fill="#374151" font-family="sans-serif" font-size="14">2) Model Selection</text>
+  <text x="710" y="252" fill="#374151" font-family="sans-serif" font-size="14">3) Train &amp; Validate</text>
+  <text x="710" y="272" fill="#374151" font-family="sans-serif" font-size="14">4) Test &amp; Export</text>
+  <text x="710" y="296" fill="#374151" font-family="sans-serif" font-size="14">Guided, step-by-step</text>
+
+  <!-- Results / Export Box -->
+  <rect x="480" y="320" width="190" height="140" fill="#ffffff" stroke="#1f2937" stroke-width="2" rx="8" />
+  <text x="500" y="348" fill="#111827" font-family="sans-serif" font-size="16" font-weight="700">Results &amp; Export</text>
+  <text x="500" y="372" fill="#374151" font-family="sans-serif" font-size="14">Understand outputs</text>
+  <text x="500" y="392" fill="#374151" font-family="sans-serif" font-size="14">Export for sharing</text>
+
+  <!-- Arrows between playground and results -->
+  <line x1="575" y1="300" x2="575" y2="320" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <line x1="575" y1="320" x2="575" y2="300" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+
+  <!-- Arrows from classroom to results -->
+  <line x1="690" y1="270" x2="670" y2="270" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <line x1="670" y1="270" x2="575" y2="270" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <line x1="575" y1="270" x2="575" y2="320" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+
+  <!-- Docs -> App arrows -->
+  <line x1="380" y1="145" x2="460" y2="145" stroke="#1f2937" stroke-width="2" marker-end="url(#arrowhead)" fill="none" />
+  <text x="260" y="140" fill="#6b7280" font-family="sans-serif" font-size="13" font-style="italic">Learn here</text>
+  <text x="390" y="166" fill="#6b7280" font-family="sans-serif" font-size="13" font-style="italic">Then try it</text>
+</svg>
